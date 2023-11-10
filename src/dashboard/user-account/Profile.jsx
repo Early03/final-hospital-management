@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import uploadImageToCloudinary from '../../utils/uploadCloudinary';
-import { BASE_URL, token } from '../../utils/config';
+import { BASE_URL } from '../../utils/config';
 import { toast } from 'react-toastify';
 import { HashLoader } from 'react-spinners';
 
@@ -45,6 +45,7 @@ const Profile = ({user}) => {
   }
 
   const submitHandler = async event =>{
+    const token = localStorage.getItem('token');
     event.preventDefault()
     setLoading(true)
 
