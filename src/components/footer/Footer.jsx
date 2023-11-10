@@ -83,7 +83,7 @@ const Footer = () => {
         <div className='flex justify-between flex-col md:flex-row flex wrap gap-[30px]'>
             <div>
               <img src={logo} alt="" />
-              <p className='text-[16px] leading-7 font-[400] text-textColor mt-4'>Copyright {year} developed by Muhibur Rahman</p>
+              <p className='text-[16px] leading-7 font-[400] text-textColor mt-4'>Copyright {year} developed by Early</p>
               <div className='flex items-center gap-3 mt-4'>
               {socialLinks.map((link, index) => (
                 <Link 
