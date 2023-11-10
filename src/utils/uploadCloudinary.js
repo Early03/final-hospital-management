@@ -1,5 +1,11 @@
-const upload_preset = import.meta.env.VITE_UPLOAD_PRESET
-const cloud_name = import.meta.env.VITE_CLOUD_NAME
+
+
+    
+const VITE_CLOUD_NAME = dovxecteb;
+const VITE_UPLOAD_PRESET = doctor-booking-system;
+
+const upload_preset = VITE_UPLOAD_PRESET;
+const cloud_name = VITE_CLOUD_NAME;
 
 const uploadImageToCloudinary = async file => {
 
