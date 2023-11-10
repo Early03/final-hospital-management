@@ -95,6 +95,8 @@ const DoctorCard = ({doctor}) => {
 export const DoctorDetails = ({doctor, closeModal, userData}) => {
 
     
+    const token = localStorage.getItem('token')
+
     const [loading, setLoading] = useState(false)
 
     const [formData, setFormData] = useState({
