@@ -1,0 +1,12 @@
+.circle-links {
+    border: 1px solid #181A1E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-links:hover{
+    background-color: #0067FF;
+    border: none;
+}
